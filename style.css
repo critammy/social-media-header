@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    position: relative;
+    width: 850px;
+    height: 300px;
+    background-color: royalblue;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.interior {
+    position: relative;
+    z-index: 1;
+    width: 175px;
+    height: 200px;
+    top: 45px;
+    left: 10px;
+    background-color: rgb(27, 84, 190);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqYAv0DykXKnRrI9S-f9UndzC5Gd0G5Y-AWPZj89JlAgcA3YYP&usqp=CAU);
+}
+
+h1 {
+    position: relative;
+    left: 220px;
+    top: 200px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+h2 {
+    position: relative;
+    z-index: 2;
+    left: 220px;
+    top: 200px;
+    font-size: 18px;
+    font-style: italic; 
+}
+
+.like-button {
+    position: relative;
+    color: black;
+    height: 10px;
+    float: right;
+    top: 185px;
+}
+
+
+.profile-heading {
+    position: relative;
+    margin: auto;
+    height: 40px;
+    width: 850px;
+    background-color: white;
+}
+
+.other-buttons {
+    position: relative;
+    background-color: white;
+    color: black;
+    left: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    border: 2px solid rgb(224, 216, 216);
+    padding: 5px;
+}
+.columns {
+    position: relative;
+    margin: auto;
+    width: 850px;
+    height: 500px;
+    
+}
+
+.column1 {
+    width: 328px;
+    height: 600px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.column1 .inner1 {
+    width: 328px;
+    height: 100px;
+    border: 1px solid magenta;
+    text-align: center;
+}
+
+.column1 .inner2 {
+    width: 328px;
+    height: 200px;
+    border: 1px solid magenta;
+}
+
+.column2 {
+    width: 512px;
+    height: 600px;
+    border: 1px solid lightslategray;
+    float: right;
+    top: -50px;
+}
+
+.column2 .inside1 {
+    width: 512px;
+    height: 300px;
+    border: 1px solid green;
+}
+
