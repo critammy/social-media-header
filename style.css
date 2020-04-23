@@ -46,7 +46,7 @@ h2 {
     color: black;
     height: 10px;
     float: right;
-    top: 185px;
+    top: 175px;
 }
 
 
@@ -116,3 +116,8 @@ li {
     border: 1px solid green;
 }
 
+.column2 .inside2 {
+    width: 512px;
+    height: 200px;
+    border: 1px solid green;
+}
